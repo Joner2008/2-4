@@ -1,8 +1,9 @@
 basic.forever(function () {
-    if (input.lightLevel() > 40) {
+	
+})
+basic.forever(function () {
+    if (input.lightLevel() < 40) {
         basic.showNumber(1)
-    } else {
-        basic.showIcon(IconNames.Happy)
     }
     if (input.lightLevel() > 80) {
         basic.showNumber(2)
@@ -16,4 +17,13 @@ basic.forever(function () {
     if (input.lightLevel() > 200) {
         basic.showNumber(5)
     }
+})
+basic.forever(function () {
+	
+})
+basic.forever(function () {
+	
+})
+basic.forever(function () {
+	
 })
