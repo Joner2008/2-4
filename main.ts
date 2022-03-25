@@ -1,6 +1,8 @@
 basic.forever(function () {
     if (input.lightLevel() > 40) {
         basic.showNumber(1)
+    } else {
+        basic.showIcon(IconNames.Happy)
     }
     if (input.lightLevel() > 80) {
         basic.showNumber(2)
